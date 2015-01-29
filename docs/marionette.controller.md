@@ -51,7 +51,7 @@ instance, as well as those that are bound using the EventBinder from
 the controller.
 
 Invoking the `destroy` method will trigger the "before:destroy" and "destroy" events and the
-corresponding `onBeforeDestory` and `onDestroy` method calls. These calls will be passed any arguments `destroy`
+corresponding `onBeforeDestroy` and `onDestroy` method calls. These calls will be passed any arguments `destroy`
 was invoked with.
 
 ```js
