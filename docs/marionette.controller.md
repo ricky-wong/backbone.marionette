@@ -39,7 +39,7 @@ var myRouter = new Marionette.AppRouter({
 
 ## getOption
 
-Retrieve an object's attribute either directly from the object, or from the object's this.options, with this.options taking precedence.
+Retrieve an object's attribute either directly from the object, or from the object's `this.options`, with `this.options` taking precedence.
 
 More information [getOption](./marionette.functions.md)
 
@@ -50,7 +50,7 @@ unbinding all of the events that are directly attached to the controller
 instance, as well as those that are bound using the EventBinder from
 the controller.
 
-Invoking the `destroy` method will trigger the "before:destroy" and "destroy" events and the
+Invoking the `destroy` method will trigger the `before:destroy` and `destroy` events and the
 corresponding `onBeforeDestroy` and `onDestroy` method calls. These calls will be passed any arguments `destroy`
 was invoked with.
 
